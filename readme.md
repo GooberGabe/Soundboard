@@ -13,7 +13,7 @@ A simple customizable soundboard where the user can import sounds and play them 
 
 ## Instructions for Build and Use
 
-Soundbyte is not currently functional and cannot be used at the moment. 
+Run from command line: node app.js
 
 ## Development Environment 
 
@@ -31,4 +31,5 @@ I found these websites useful in developing this software:
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* Priorty #1 is implementing sound playback functionality.
+* Implement a database to store sound files in the cloud instead of in local storage.
+* Responsive design.
