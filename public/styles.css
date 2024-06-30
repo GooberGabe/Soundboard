@@ -69,7 +69,6 @@ h1 {
   transform: scale(1.05);
 }
 
-  /* Add this to your existing CSS */
 .modal {
   display: none;
   position: fixed;

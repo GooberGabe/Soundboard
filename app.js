@@ -6,7 +6,6 @@ const port = 3000;
 app.use(express.static('public'));
 app.use(express.json());
 
-// Explicitly serve MP3 files
 app.get('/*.mp3', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', req.path));
 });
